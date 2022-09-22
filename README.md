@@ -1,2 +1,5 @@
 # guess-my-number
-Simple guess my number game
+
+Simple "Guess my Number" game.
+
+Project 001 - Section 7 - Jonas Schmedtmann JS Course.
