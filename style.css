@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: monospace;
+}
+
+body {
+	margin: 0 1em;
+	background-color: #201f20;
+}
+
+.main-information {
+	text-align: center;
+}
+
+.main-title {
+	font-size: 3em;
+	margin: 10% 0;
+}
+
+.score-system {
+	text-align: right;
+	font-size: 22px;
+}
+
+.secret-number {
+	font-size: 2em;
+	width: 100%;
+	margin: 0 auto 5%;
+}
+
+.number-input {
+	height: 35px;
+	width: 35px;
+	padding: 20px;
+	color: #201f20;
+	font-size: 32px;
+	text-align: center;
+}
+
+.button {
+	padding: 8px;
+	font-size: 32px;
+	border: none;
+	background-color: white;
+	color: #201f20;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.button:active {
+	background-color: #201f20;
+	color: white;
+}
