@@ -8,6 +8,7 @@
 body {
 	margin: 0 1em;
 	background-color: #201f20;
+	position: relative;
 }
 
 .main-information {
@@ -54,4 +55,10 @@ body {
 .button:active {
 	background-color: #201f20;
 	color: white;
+}
+
+.again {
+	position: absolute;
+	top: -100px;
+	right: 15px;
 }
