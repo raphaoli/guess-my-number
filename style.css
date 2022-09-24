@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
 	color: white;
-	font-family: monospace;
+	font-family: "Press Start 2P", sans-serif;
 }
 
 body {
-	margin: 0 1em;
 	background-color: #201f20;
+	margin: 0 1em;
 	position: relative;
 }
 
@@ -26,23 +28,32 @@ body {
 }
 
 .secret-number {
-	font-size: 2em;
-	width: 100%;
-	margin: 0 auto 5%;
+	width: 5rem;
+	display: inline-block;
+	padding: 10px;
+	color: #201f20;
+	background-color: white;
+	font-size: 2rem;
 }
 
-.number-input {
-	height: 35px;
-	width: 35px;
-	padding: 20px;
+.guess {
+	border: solid white;
 	color: #201f20;
+	height: 3rem;
+	width: 8rem;
+	padding: 20px;
 	font-size: 32px;
 	text-align: center;
 }
 
+.guess:active {
+	border-style: none;
+	border: solid white;
+}
+
 .button {
-	padding: 8px;
-	font-size: 32px;
+	padding: 20px 30px;
+	font-size: 22px;
 	border: none;
 	background-color: white;
 	color: #201f20;
@@ -53,12 +64,19 @@ body {
 }
 
 .button:active {
-	background-color: #201f20;
 	color: white;
+	background-color: #191919;
 }
 
 .again {
 	position: absolute;
 	top: -100px;
-	right: 15px;
+	left: 15px;
+}
+
+.description {
+	font-size: 22px;
+	position: absolute;
+	top: -100px;
+	right: 50px;
 }
